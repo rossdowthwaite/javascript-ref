@@ -1,0 +1,42 @@
+html, body {
+    font-family: 'Helvetica'
+}
+ul{
+    line-height: 1.6;
+}
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    color: black
+}
+
+p {
+    line-height: 1.5;
+}
+.site-wrapper {
+    height: 2000px;
+}
+
+.section {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.code {
+    font-family: "Courier New";
+}
+
+.clickers, .actives {
+    width:100px;
+    height:100px;
+    display: inline-block;
+    margin-bottom: 10px;
+    background-color: blue;
+}
+
+.clickers.active, .actives.active  {
+    background-color: red;
+}
